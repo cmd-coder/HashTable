@@ -10,7 +10,7 @@ namespace HashTable
             Console.WriteLine("Hash Table");
             MyMapNode<string, int> hash = new MyMapNode<string, int>(5);
 
-            string input = "to be or not to be";
+            string input = "“paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
             Console.WriteLine("Input Statement is: ");
             Console.WriteLine(input);
             string[] inputArray = input.Split(" ");
