@@ -28,6 +28,8 @@ namespace HashTable
                 }
             }
 
+            hash.Remove("avoidable");
+
             string []newInputArray = inputArray.Distinct().ToArray();
             foreach(var word in newInputArray)
             {
